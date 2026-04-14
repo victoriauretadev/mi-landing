@@ -203,3 +203,17 @@ body {
   -ms-transform: scale(0.98);
   -o-transform: scale(0.98);
 }
+
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-radius: var(--radius-lg) 0 var(--radius-lg) 0;
+}
+
+.btn-primary:hover {
+  background-color: #9333ea;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(163, 74, 232, 0.3);
+}
+
