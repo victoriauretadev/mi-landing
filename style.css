@@ -90,3 +90,28 @@ body {
   padding: 0 20px;
 }
 
+
+.logo {
+  flex-shrink: 0;
+}
+
+.logo a {
+  display: block;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 230px;
+  height: auto;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.logo img:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
