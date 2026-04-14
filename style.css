@@ -196,3 +196,10 @@ body {
   color: var(--color-light);
 }
 
+.btn:active {
+  transform: scale(0.98);
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  -o-transform: scale(0.98);
+}
