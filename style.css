@@ -173,4 +173,20 @@ body {
    BOTONES GLOBALES
    =================================== */
 
-   
+   .btn {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 400;
+  border: 2px solid transparent;
+  padding: 11px 25px;
+  cursor: pointer;
+  border-radius: var(--radius-lg);
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
