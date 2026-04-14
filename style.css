@@ -1,0 +1,37 @@
+/* ===================================
+   RESET Y VARIABLES GLOBALES
+   =================================== */
+
+:root {
+  /* Colores */
+  --color-dark: #05060a;
+  --color-light: #ededed;
+  --color-light-bg: #f3f3f3;
+  --color-primary: #a34ae8;
+  --color-secondary: #202022;
+  --color-tertiary: #46464c;
+  --color-text-dark: #05060a;
+  --color-text-light: #777;
+
+  /* Tipografía */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+
+  /* Espaciado */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+
+  /* Border Radius */
+  --radius-sm: 5px;
+  --radius-md: 12px;
+  --radius-lg: 25px;
+
+  /* Transiciones */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: all 0.15s ease;
+}
