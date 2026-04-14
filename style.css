@@ -190,3 +190,9 @@ body {
   letter-spacing: 0.5px;
   white-space: nowrap;
 }
+
+.btn > a {
+  text-decoration: none;
+  color: var(--color-light);
+}
+
