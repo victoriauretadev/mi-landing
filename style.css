@@ -303,4 +303,17 @@ body {
    =================================== */
 
 
-   
+   .hero {
+  padding: 180px 20px var(--spacing-2xl);
+  text-align: center;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
