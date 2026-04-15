@@ -1090,4 +1090,15 @@ body {
    WHAT'S INCLUDED SECTION
    =================================== */
 
-   
+
+   .what-included {
+  background-color: var(--color-light-bg);
+  color: var(--color-text-dark);
+  padding: var(--spacing-3xl) 20px;
+}
+
+.what-included-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
