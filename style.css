@@ -420,4 +420,35 @@ body {
    MARQUEE SECTION
    =================================== */
 
-   
+   .marquee {
+  background: linear-gradient(90deg, var(--color-primary), #c77dff);
+  padding: var(--spacing-md) 0;
+  overflow: hidden;
+  margin: var(--spacing-2xl) 0;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee-scroll 20s linear infinite;
+  white-space: nowrap;
+}
+
+.marquee-content span {
+  margin: 0 40px;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  flex-shrink: 0;
+  letter-spacing: 1px;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
