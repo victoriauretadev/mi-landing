@@ -263,4 +263,7 @@ body {
    UTILIDADES DE TEXTO
    =================================== */
 
-   
+   .text-primary {
+  color: var(--color-primary);
+}
+
