@@ -1634,3 +1634,28 @@ body {
   flex-direction: column;
   gap: var(--spacing-md);
 }
+
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--color-light);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 200;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.contact-link:hover {
+  color: var(--color-primary);
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+}
