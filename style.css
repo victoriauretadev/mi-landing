@@ -1152,3 +1152,37 @@ body {
 .feature-item:hover {
   background-color: rgba(163, 74, 232, 0.05);
 }
+
+
+.item-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+  transition: var(--transition);
+}
+
+.feature-item:hover .item-icon {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.item-content {
+  flex: 1;
+}
+
+.feature-item h4 {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: var(--color-text-dark);
+  letter-spacing: 0.5px;
+}
+
+.feature-item p {
+  font-size: 13px;
+  font-weight: 200;
+  color: var(--color-text-dark);
+}
+
