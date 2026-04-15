@@ -1628,3 +1628,9 @@ body {
   color: var(--color-primary);
   letter-spacing: 0.5px;
 }
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
