@@ -1460,3 +1460,31 @@ body {
 /* ===================================
    CONTACT SECTION
    =================================== */
+
+
+.contact-section {
+  padding: var(--spacing-3xl) 20px;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: start;
+}
+
+.contact-content h2 {
+  font-family: var(--font-primary);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.contact-content p {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.7;
+  margin-bottom: var(--spacing-lg);
+}
