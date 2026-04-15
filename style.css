@@ -677,3 +677,35 @@ body {
   color: #a34ae8;
   letter-spacing: 0.3px;
 }
+
+#button-web {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.button-web {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #a34ae8 0%, #7c3aed 100%);
+  color: #ededed;
+  border: none;
+  border-radius: 25px 0 25px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(163, 74, 232, 0.2);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+}
+
