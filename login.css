@@ -215,3 +215,28 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(163, 74, 232, 0.3);
 }
+
+.btn-login,
+.btn-register {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  padding: 5px 25px;
+  font-size: 14px;
+  border-radius: var(--radius-lg);
+}
+
+.btn-login:hover,
+.btn-register:hover {
+  background-color: #9333ea;
+  transform: translateY(-2px);
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.btn-full {
+  width: 100%;
+}
