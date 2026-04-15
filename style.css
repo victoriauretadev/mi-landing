@@ -1807,3 +1807,61 @@ body {
     gap: var(--spacing-lg);
   }
 }
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 150px;
+  }
+
+  .hero {
+    padding: 120px 20px var(--spacing-lg);
+    min-height: auto;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero-subtitle {
+    font-size: 13px;
+  }
+
+  .badge {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+
+  .section-title h2 {
+    font-size: 20px;
+  }
+
+  .web-design-info h2,
+  .boost-info h2 {
+    font-size: 22px;
+  }
+
+  .contact-content h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .feature-icon,
+  .benefit-icon,
+  .card-icon,
+  .platform-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .tech-logos {
+    gap: var(--spacing-lg);
+  }
+
+  .tech-logos img {
+    height: 50px;
+  }
+}
