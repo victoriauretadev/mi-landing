@@ -491,3 +491,45 @@ body {
   margin-bottom: var(--spacing-lg);
 }
 
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+}
+
+.stat-item {
+  text-align: left;
+  padding-right: var(--spacing-lg);
+  border-right: 1px solid var(--color-primary);
+}
+
+.stat-item:last-child {
+  border-right: none;
+}
+
+.stat-number {
+  font-family: var(--font-primary);
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: 1px;
+}
+
+.number-highlight {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.symbol {
+  color: var(--color-primary);
+  font-size: 28px;
+}
+
+.stat-label {
+  font-family: var(--font-primary);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
