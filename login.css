@@ -339,3 +339,6 @@ body {
   box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
 }
 
+.auth-card__submit:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
