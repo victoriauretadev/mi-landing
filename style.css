@@ -571,4 +571,15 @@ body {
    QUIÉNES SOMOS SECTION
    =================================== */
 
-   
+   .quienes-somos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f3f3f3 0%, rgba(163, 74, 232, 0.03) 100%);
+  color: #05060a;
+  position: relative;
+  overflow: hidden;
+}
