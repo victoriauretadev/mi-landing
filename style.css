@@ -1849,12 +1849,6 @@ body {
   }
 }
 
-
-
-
-
-
-
 /* ===================================
    MENÚ HAMBURGUESA
    =================================== */
@@ -2045,8 +2039,12 @@ body {
   }
 }
 
-
-
 /* ===================================
-   TIPOGRAFIAS RESPONSIVE
+  RESPONSIVE-TAMAÑOS-DE-LETRAS-IMAGENES
    =================================== */
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 140px;
+  }
+}
