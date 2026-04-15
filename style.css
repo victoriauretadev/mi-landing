@@ -1394,3 +1394,25 @@ body {
   margin-bottom: var(--spacing-lg);
   color: var(--color-light);
 }
+
+
+.link-more {
+  color: var(--color-light);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 200;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.link-more:hover {
+  color: var(--color-primary);
+  transform: translateX(5px);
+}
+
+.arrow {
+  color: var(--color-primary);
+  font-weight: 600;
+}
