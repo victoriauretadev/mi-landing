@@ -1494,4 +1494,81 @@ body {
    FORMULARIO DE CONTACTO
    =================================== */
 
-   
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.form-group label {
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-light);
+  letter-spacing: 0.5px;
+}
+
+.form-group label span {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-light);
+  padding: var(--spacing-sm);
+  color: var(--color-light);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  outline: none;
+  transition: var(--transition);
+  letter-spacing: 0.5px;
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--color-text-light);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-bottom-color: var(--color-primary);
+  box-shadow: 0 2px 0 var(--color-primary);
+}
+
+.form-group textarea {
+  background-color: rgba(163, 74, 232, 0.05);
+  border: 1px solid var(--color-tertiary);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-md);
+  min-height: 140px;
+  resize: vertical;
+  font-family: var(--font-secondary);
+  -webkit-border-radius: var(--radius-sm);
+  -moz-border-radius: var(--radius-sm);
+  -ms-border-radius: var(--radius-sm);
+  -o-border-radius: var(--radius-sm);
+}
+
+.form-group textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(163, 74, 232, 0.1);
+}
