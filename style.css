@@ -1186,3 +1186,27 @@ body {
   color: var(--color-text-dark);
 }
 
+
+.cards-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  align-content: start;
+}
+
+.card-item {
+  background-color: var(--color-light-bg);
+  border: 1px solid var(--color-tertiary);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-lg);
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.card-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-color: var(--color-primary);
+}
+
