@@ -1421,3 +1421,38 @@ body {
    TECHNOLOGIES SECTION
    =================================== */
 
+.technologies {
+  background-color: var(--color-light-bg);
+  color: var(--color-text-dark);
+  padding: var(--spacing-3xl) 20px;
+}
+
+.technologies h2 {
+  color: var(--color-text-dark);
+}
+
+.tech-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-2xl);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-lg) 0;
+}
+
+.tech-logos img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: var(--transition);
+  -webkit-filter: grayscale(100%);
+}
+
+.tech-logos img:hover {
+  filter: grayscale(0%) drop-shadow(0 0 10px rgba(163, 74, 232, 0.5));
+  transform: scale(1.15);
+}
+
