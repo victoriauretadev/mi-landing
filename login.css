@@ -240,3 +240,10 @@ body {
 .btn-full {
   width: 100%;
 }
+
+.auth__right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
