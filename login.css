@@ -322,3 +322,20 @@ body {
   color: #aaa;
 }
 
+/* BOTON FINAL */
+.auth-card__submit {
+  margin-top: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #a855f7;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-card__submit:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
