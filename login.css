@@ -314,3 +314,11 @@ body {
   border-color: #a855f7;
   box-shadow: 0 0 8px rgba(168, 85, 247, 0.3);
 }
+
+/* CHECK */
+.auth-card__checkbox {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #aaa;
+}
+
