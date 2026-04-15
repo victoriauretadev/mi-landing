@@ -410,7 +410,7 @@ body {
   padding: 40px 0px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 480px and max-width: 768px) {
   .auth {
     width: 100%;
     height: auto;
