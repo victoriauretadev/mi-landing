@@ -533,8 +533,7 @@ body {
    WHY CHOOSE US SECTION
    =================================== */
 
-
-   .why-choose-us {
+.why-choose-us {
   background-color: var(--color-light-bg);
   color: var(--color-text-dark);
   padding: var(--spacing-3xl) 20px;
@@ -566,24 +565,26 @@ body {
   margin: 0 auto;
 }
 
-
 /* ===================================
    QUIÉNES SOMOS SECTION
    =================================== */
 
-   .quienes-somos {
+.quienes-somos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 40px;
   padding: 40px 20px;
-  background: linear-gradient(135deg, #f3f3f3 0%, rgba(163, 74, 232, 0.03) 100%);
+  background: linear-gradient(
+    135deg,
+    #f3f3f3 0%,
+    rgba(163, 74, 232, 0.03) 100%
+  );
   color: #05060a;
   position: relative;
   overflow: hidden;
 }
-
 
 /* Efecto de fondo decorativo */
 .quienes-somos::before {
@@ -593,7 +594,11 @@ body {
   right: -50%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(163, 74, 232, 0.1) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(163, 74, 232, 0.1) 0%,
+    transparent 70%
+  );
   border-radius: 50%;
   z-index: 0;
   pointer-events: none;
@@ -606,7 +611,11 @@ body {
   left: -50%;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(163, 74, 232, 0.08) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(163, 74, 232, 0.08) 0%,
+    transparent 70%
+  );
   border-radius: 50%;
   z-index: 0;
   pointer-events: none;
@@ -623,7 +632,6 @@ body {
   position: relative;
   z-index: 1;
 }
-
 
 #quienes-web {
   display: flex;
@@ -709,7 +717,6 @@ body {
   font-family: var(--font-secondary);
 }
 
-
 /* Efecto de brillo en el botón */
 .button-web::before {
   content: "";
@@ -718,7 +725,12 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
   transition: left 0.5s ease;
 }
 
@@ -756,7 +768,6 @@ body {
   transition: all 0.3s ease;
 }
 
-
 #img-quienes-somos {
   display: flex;
   justify-content: center;
@@ -777,7 +788,6 @@ body {
   position: relative;
 }
 
-
 /* Efecto de brillo en imagen */
 #img-quienes-somos img::after {
   content: "";
@@ -786,7 +796,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(163, 74, 232, 0.2) 0%, transparent 50%);
+  background: linear-gradient(
+    135deg,
+    rgba(163, 74, 232, 0.2) 0%,
+    transparent 50%
+  );
   border-radius: 8px;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -794,7 +808,7 @@ body {
 
 #img-quienes-somos img:hover {
   transform: scale(1.05) perspective(1000px) rotateY(2deg);
-  box-shadow: 
+  box-shadow:
     0 20px 50px rgba(0, 0, 0, 0.2),
     0 0 30px rgba(163, 74, 232, 0.2);
   filter: brightness(1.05) contrast(1.05);
@@ -803,8 +817,6 @@ body {
 /* ===================================
    ANIMACIONES
    =================================== */
-
-
 
 @keyframes slideInLeft {
   from {
@@ -840,7 +852,8 @@ body {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -848,9 +861,227 @@ body {
   }
 }
 
-
 /* ===================================
    RESPONSIVE
    =================================== */
 
-   
+@media (max-width: 1200px) {
+  .quienes-somos {
+    gap: 30px;
+    padding: 100px 20px;
+  }
+
+  #quienes-web h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .quienes-somos {
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 20px;
+  }
+
+  #text-quienes-somos {
+    width: 100%;
+  }
+
+  #img-quienes-somos {
+    width: 100%;
+  }
+
+  #quienes-web h2 {
+    font-size: 32px;
+  }
+
+  #img-quienes-somos img {
+    animation: slideInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+}
+
+@media (max-width: 768px) {
+  .quienes-somos {
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 20px;
+  }
+
+  .quienes-somos::before {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: -100px;
+  }
+
+  .quienes-somos::after {
+    width: 250px;
+    height: 250px;
+    bottom: -100px;
+    left: -100px;
+  }
+
+  #text-quienes-somos {
+    width: 100%;
+    gap: 25px;
+  }
+
+  #quienes-code {
+    gap: 10px;
+  }
+
+  #quienes-code img {
+    width: 50px;
+  }
+
+  #quienes-code h2 {
+    font-size: 14px;
+  }
+
+  #quienes-web h2 {
+    font-size: 28px;
+  }
+
+  #quienes-web p {
+    font-size: 14px;
+  }
+
+  #img-quienes-somos {
+    width: 100%;
+  }
+
+  .button-web {
+    padding: 11px 24px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quienes-somos {
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px 20px;
+  }
+
+  .quienes-somos::before {
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    right: -50px;
+  }
+
+  .quienes-somos::after {
+    width: 200px;
+    height: 200px;
+    bottom: -50px;
+    left: -50px;
+  }
+
+  #text-quienes-somos {
+    width: 100%;
+    gap: 20px;
+  }
+
+  #quienes-code {
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  #quienes-code img {
+    width: 45px;
+  }
+
+  #quienes-code h2 {
+    font-size: 13px;
+  }
+
+  #quienes-web h2 {
+    font-size: 22px;
+    line-height: 1.1;
+  }
+
+  #quienes-web p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  #quienes-web p bold {
+    margin-bottom: 8px;
+  }
+
+  #button-web {
+    margin-top: 10px;
+  }
+
+  .button-web {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 11px;
+    justify-content: center;
+  }
+
+  .button-web svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  #img-quienes-somos {
+    width: 100%;
+  }
+
+  #img-quienes-somos img {
+    border-radius: 6px;
+  }
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  padding-top: 50px;
+}
+
+.benefit-card {
+  background-color: var(--color-light-bg);
+  border: 1px solid var(--color-tertiary);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  text-align: left;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.benefit-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-color: var(--color-primary);
+}
+
+.benefit-icon {
+  width: 50px;
+  height: 50px;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  transition: var(--transition);
+}
+
+.benefit-card:hover .benefit-icon {
+  transform: scale(1.1);
+}
+
+.benefit-card h3 {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-dark);
+  letter-spacing: 0.5px;
+}
+
+.benefit-card p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+}
+
