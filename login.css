@@ -353,3 +353,11 @@ body {
   letter-spacing: 0.5px;
   padding: 40px 0px;
 }
+
+/* DIVIDER */
+.auth-card__divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #777;
+}
+
