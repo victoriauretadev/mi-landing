@@ -1085,13 +1085,11 @@ body {
   color: var(--color-text-dark);
 }
 
-
 /* ===================================
    WHAT'S INCLUDED SECTION
    =================================== */
 
-
-   .what-included {
+.what-included {
   background-color: var(--color-light-bg);
   color: var(--color-text-dark);
   padding: var(--spacing-3xl) 20px;
@@ -1120,7 +1118,6 @@ body {
   font-weight: 200;
   line-height: 1.7;
 }
-
 
 .features-layout {
   display: grid;
@@ -1153,7 +1150,6 @@ body {
   background-color: rgba(163, 74, 232, 0.05);
 }
 
-
 .item-icon {
   width: 24px;
   height: 24px;
@@ -1185,7 +1181,6 @@ body {
   font-weight: 200;
   color: var(--color-text-dark);
 }
-
 
 .cards-column {
   display: grid;
@@ -1238,7 +1233,6 @@ body {
   color: var(--color-text-dark);
 }
 
-
 /* ===================================
    BOOST PRESENCE SECTION
    =================================== */
@@ -1289,7 +1283,6 @@ body {
   margin-bottom: var(--spacing-lg);
 }
 
-
 .pricing-section {
   display: flex;
   flex-direction: column;
@@ -1332,16 +1325,17 @@ body {
   font-weight: 200;
 }
 
-
 /* ===================================
    PLATFORMS SECTION
    =================================== */
 
-
-
-   .platforms {
+.platforms {
   padding: var(--spacing-3xl) 20px;
-  background: linear-gradient(135deg, rgba(163, 74, 232, 0.05), rgba(163, 74, 232, 0.02));
+  background: linear-gradient(
+    135deg,
+    rgba(163, 74, 232, 0.05),
+    rgba(163, 74, 232, 0.02)
+  );
 }
 
 .platforms-grid {
@@ -1394,7 +1388,6 @@ body {
   margin-bottom: var(--spacing-lg);
   color: var(--color-light);
 }
-
 
 .link-more {
   color: var(--color-light);
@@ -1456,11 +1449,9 @@ body {
   transform: scale(1.15);
 }
 
-
 /* ===================================
    CONTACT SECTION
    =================================== */
-
 
 .contact-section {
   padding: var(--spacing-3xl) 20px;
@@ -1488,7 +1479,6 @@ body {
   line-height: 1.7;
   margin-bottom: var(--spacing-lg);
 }
-
 
 /* ===================================
    FORMULARIO DE CONTACTO
@@ -1577,8 +1567,7 @@ body {
    FOOTER
    =================================== */
 
-
-   .footer {
+.footer {
   background-color: var(--color-dark);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: var(--spacing-2xl) 20px var(--spacing-lg);
@@ -1613,7 +1602,6 @@ body {
   opacity: 0.8;
 }
 
-
 .footer-brand-col p {
   font-size: 14px;
   font-weight: 200;
@@ -1634,7 +1622,6 @@ body {
   flex-direction: column;
   gap: var(--spacing-md);
 }
-
 
 .contact-link {
   display: flex;
@@ -1672,7 +1659,6 @@ body {
   transform: scale(1.2);
 }
 
-
 .footer-links {
   display: flex;
   flex-direction: column;
@@ -1705,11 +1691,9 @@ body {
   letter-spacing: 0.5px;
 }
 
-
 /* ===================================
    RESPONSIVE DESIGN
    =================================== */
-
 
 @media (max-width: 1200px) {
   .web-design-wrapper,
@@ -1733,7 +1717,6 @@ body {
     padding: var(--spacing-lg) 0;
   }
 }
-
 
 @media (max-width: 768px) {
   .header-container {
