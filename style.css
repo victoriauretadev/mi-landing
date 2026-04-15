@@ -1612,3 +1612,19 @@ body {
 .footer-logo:hover {
   opacity: 0.8;
 }
+
+
+.footer-brand-col p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.6;
+  color: var(--color-light);
+}
+
+.footer-col h3 {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-primary);
+  letter-spacing: 0.5px;
+}
