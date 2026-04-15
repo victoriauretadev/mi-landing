@@ -265,39 +265,6 @@ body {
   gap: 60px;
 }
 
-/* IZQUIERDA */
-.auth__left {
-  flex: 1;
-  color: #e6e6e6;
-}
-
-.auth__title {
-  font-size: 36px;
-  margin-bottom: 20px;
-  font-family: var(--font-primary);
-}
-
-.auth__subtitle {
-  color: #a1a1aa;
-  margin-bottom: 30px;
-  font-family: var(--font-secondary);
-}
-
-.auth__features {
-  list-style: none;
-}
-
-.auth__feature {
-  margin-bottom: 15px;
-  color: #cfcfcf;
-  font-family: var(--font-secondary);
-}
-
-.auth__feature span {
-  color: #a855f7;
-  margin-right: 10px;
-}
-
 /* DERECHA */
 .auth__right {
   flex: 1;
@@ -408,15 +375,4 @@ body {
   color: rgba(237, 237, 237, 0.6);
   letter-spacing: 0.5px;
   padding: 40px 0px;
-}
-
-@media (min-width: 480px and max-width: 768px) {
-  .auth {
-    width: 100%;
-    height: auto;
-  }
-
-  .auth__container {
-    display: none;
-  }
 }
