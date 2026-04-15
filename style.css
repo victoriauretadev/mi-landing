@@ -1577,4 +1577,23 @@ body {
    FOOTER
    =================================== */
 
-   
+
+   .footer {
+  background-color: var(--color-dark);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-2xl) 20px var(--spacing-lg);
+  margin-top: var(--spacing-3xl);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-2xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
