@@ -583,3 +583,43 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+
+/* Efecto de fondo decorativo */
+.quienes-somos::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(163, 74, 232, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.quienes-somos::after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: -50%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(163, 74, 232, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#text-quienes-somos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  width: 50%;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
