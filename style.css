@@ -1102,3 +1102,22 @@ body {
   margin: 0 auto;
 }
 
+.section-title {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.section-title h2 {
+  font-family: var(--font-primary);
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  letter-spacing: 0.5px;
+}
+
+.section-title p {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.7;
+}
+
