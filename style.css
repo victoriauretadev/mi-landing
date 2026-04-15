@@ -1121,3 +1121,34 @@ body {
   line-height: 1.7;
 }
 
+
+.features-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+}
+
+.features-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.feature-item {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+  transition: var(--transition);
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-sm);
+}
+
+.feature-item:hover {
+  background-color: rgba(163, 74, 232, 0.05);
+}
