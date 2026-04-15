@@ -247,3 +247,13 @@ body {
   justify-content: center;
   margin-top: 150px;
 }
+
+.auth-card {
+  width: 100%;
+  max-width: 380px;
+  padding: 40px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #111, #1a1a1a);
+  box-shadow: 0 0 25px rgba(138, 43, 226, 0.15);
+  color: white;
+}
