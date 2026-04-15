@@ -1733,3 +1733,77 @@ body {
     padding: var(--spacing-lg) 0;
   }
 }
+
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+  }
+
+  .navbar {
+    order: 3;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-menu {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+  }
+
+  .auth-buttons {
+    flex-direction: column;
+    width: 100%;
+    order: 4;
+  }
+
+  .auth-buttons .btn {
+    width: 100%;
+  }
+
+  .hero {
+    padding: 140px 20px var(--spacing-xl);
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  .section-title h2,
+  .why-title h2 {
+    font-size: 24px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid,
+  .benefits-grid,
+  .platforms-grid,
+  .cards-column {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    font-size: 24px;
+  }
+
+  .nav-menu {
+    gap: var(--spacing-lg);
+  }
+}
