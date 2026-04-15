@@ -342,3 +342,14 @@ body {
 .auth-card__submit:hover {
   box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
 }
+
+.footer-bottom {
+  text-align: center;
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+  font-weight: 200;
+  color: rgba(237, 237, 237, 0.6);
+  letter-spacing: 0.5px;
+  padding: 40px 0px;
+}
