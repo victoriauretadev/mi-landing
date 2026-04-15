@@ -778,4 +778,27 @@ body {
 }
 
 
+/* Efecto de brillo en imagen */
+#img-quienes-somos img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(163, 74, 232, 0.2) 0%, transparent 50%);
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#img-quienes-somos img:hover {
+  transform: scale(1.05) perspective(1000px) rotateY(2deg);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.2),
+    0 0 30px rgba(163, 74, 232, 0.2);
+  filter: brightness(1.05) contrast(1.05);
+}
+
+
 
